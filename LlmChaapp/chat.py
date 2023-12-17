@@ -5,7 +5,7 @@ import random
 import time
 
 # Assuming this is the URL of your Flask API
-api_url = 'API_KEY'
+api_url = 'public_url'
 
 with gr.Blocks(theme=gr.themes.Default(),css=".gradio-container {background-color: white}") as demo:
   chatbot = gr.Chatbot(height=800)
